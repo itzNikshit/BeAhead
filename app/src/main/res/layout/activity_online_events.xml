@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OnlineEventsActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayoutOnlineEvents"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.etebarian.meowbottomnavigation.MeowBottomNavigation
+            android:id="@+id/bottomNavigOnlineEvents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:mbn_backgroundBottomColor="@color/backgroundBottomcolor"
+            app:mbn_circleColor="#DFD04A"
+            app:mbn_countBackgroundColor="@color/countBackgroundcolor"
+            app:mbn_countTextColor="@color/countTextcolor"
+            app:mbn_defaultIconColor="@color/defaultIconcolor"
+            app:mbn_selectedIconColor="@color/black"
+            app:mbn_shadowColor="@color/shadowcolor">
+
+        </com.etebarian.meowbottomnavigation.MeowBottomNavigation>
+
+    </FrameLayout>
+
+</LinearLayout>
